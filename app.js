@@ -1,7 +1,7 @@
 //express, cookie-parser
 const express = require("express")
 const cookierParser = require("cookie-parser")
-var port = 3001
+var port = process.env.PORT ||  3001
 
 //simple cookie
 var staff = {
